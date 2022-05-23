@@ -5,6 +5,26 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* utility */
+
+.flex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+
 /* header */
 
 
@@ -50,7 +70,7 @@ span {
 }
 
 #cliente span,
-button {
+#inizia {
     margin-right: 0;
     margin-left: 40px;
 }
@@ -64,7 +84,48 @@ button {
 
 /* jumbotron */
 
-.jumbotron {
-    height: 700px;
+.b-blue {
+    margin-top: 80px;
+    height: 750px;
     background-color: #B4D0E7;
+}
+
+.j-content {
+    width: 1200px;
+}
+
+#titolo {
+    margin: 75px 0 50px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.j-conteiner {
+    height: 410px;
+}
+
+.paragrafo {
+    width: 350px;
+    height: 280px;
+    line-height: 25px;
+}
+
+#jumbo {
+    height: 500px;
+}
+
+#prova {
+    width: 220px;
+    padding: 15px 0;
+    font-size: 16px;
+    background-color: #0061FF;
+    color: white;
+    border: 0;
+}
+
+i {
+    font-size: 50px;
 }
