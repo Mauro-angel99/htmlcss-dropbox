@@ -11,11 +11,15 @@
 </head>
 
 <body>
+
+    <!-- header -->
+
+
     <header>
         <nav>
 
             <div class="navbar" id="dropbox">
-                <img src="img/logo-small.png" alt="">
+                <img id="logo" src="img/logo-small.png" alt="">
                 <span>Perchè Dropbox</span>
                 <span>Funzioni</span>
                 <span>Piani e Prezzi</span>
@@ -43,25 +47,166 @@
                                     e
                                     integrato
                                     per ottimizzare il flusso di lavoro esistente.</p>
-                                <button id="prova">Inizia la tua prova gratuita</button>
+                                <button class="prova">Inizia la tua prova gratuita</button>
                                 <span>Annulla in qualsiasi momento</span>
                             </div>
                             <i class="fa-solid fa-arrow-down"></i>
                         </div>
-
-
                         <figure>
                             <img id="jumbo" src="img/jumbo.png" alt="">
                         </figure>
                     </div>
                 </div>
             </div>
-
-
         </div>
-
-
     </header>
+
+    <!-- main -->
+
+    <main>
+        <div class="flex j-center">
+            <section>
+                <h2>Trova il tuo piano busines che fa per te</h2>
+                <div class="flex">
+                    <div class="fatturazione flex">
+                        <span id="c-blue" class="cerchio"></span>
+                        <span>Fatturazione mensile</span>
+                    </div>
+                    <div class="fatturazione flex">
+                        <span class="cerchio"></span>
+                        <span>Fatturazione annuale</span>
+                    </div>
+                </div>
+                <div class="flex j-between">
+
+
+                    <!-- prima colonna -->
+
+
+                    <div class="colonna">
+                        <div class="casella-piccola">
+                            <span><i class="fa-solid fa-user"></i></span>
+                            <span>Singolo</span>
+                        </div>
+                        <div class="casella-grossa flex column">
+                            <h3 class="margin-p">Professional</h3>
+                            <span id="prezzo"><b>&euro; 12.00</b></span>
+                            <span id="mese" class="margin-g">/mese</span>
+                            <span class="margin-p flex align-baseline"><i class="fa-solid fa-user"></i>1 utente</span>
+                            <span class="margin-p flex align-baseline"><i class="fa-solid fa-folder"></i>5 TB di
+                                spazio di archiviazione sicuro</span>
+                            <span class="margin-g flex align-baseline">
+                                <i class="fa-solid fa-share-nodes"></i>Funzioni diproduttività premium e condivisione
+                                file semplice e sicura
+                            </span>
+                            <button class="prova margin-m">Prova gratis per 30 giorni</button>
+                            <span class="margin-m">Oppure <a href="">acqista ora</a></span>
+                            <hr class="margin-g">
+                            <span class="margin-m"><b>Punti salienti del piano</b></span>
+                            <ul>
+                                <li class="margin-p flex align-baseline">
+                                    <i class="fa-solid fa-check"></i>Invia file fino a 100 GB
+                                    con Dropbox Transfet
+                                </li>
+                                <li class="flex align-baseline">
+                                    <i class="fa-solid fa-check"></i>Cartelle offline su
+                                    dispositivi mobili
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- seconda colonna -->
+
+
+                    <div class="colonna">
+                        <div class="casella-piccola">
+                            <span><i class="fa-solid fa-user"></i></span>
+                            <span>Team</span>
+                        </div>
+                        <div class="casella-grossa flex column">
+                            <h3 class="margin-p">Advanced</h3>
+                            <span id="prezzo"><b>&euro; 18.00</b></span>
+                            <span id="mese" class="margin-g">/utente/mese</span>
+                            <span class="margin-p flex align-baseline"><i class="fa-solid fa-user"></i>3 o più
+                                utenti</span>
+                            <span class="margin-p flex align-baseline"><i class="fa-solid fa-folder"></i>Tutto lo spazio
+                                di cui ha bisogno
+                                il
+                                suo team</span>
+                            <span class="margin-g flex align-baseline">
+                                <i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo e per tenere al
+                                sicuro tutti i file del suo team
+                            </span>
+                            <button class="prova margin-m">Prova gratis per 30 giorni</button>
+                            <span class="margin-m">Oppure <a href="">acqista ora</a></span>
+                            <hr class="margin-g">
+                            <span class="margin-m"><b>Punti salienti del piano</b></span>
+                            <ul>
+                                <li class="margin-p flex align-baseline">
+                                    <i class="fa-solid fa-check"></i>Nessun limite di spazio per i file
+                                </li>
+                                <li class="margin-p flex align-baseline">
+                                    <i class="fa-solid fa-check"></i>Cartelle offline su
+                                    dispositivi mobili
+                                </li>
+                                <li class="margin-p flex align-baseline">
+                                    <i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole
+                                </li>
+                                <li class="margin-p flex align-baseline">
+                                    <i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri nel team
+                                </li>
+                                <li class="margin-p flex align-baseline">
+                                    <i class="fa-solid fa-check"></i>Gestione dei permessi in base hai ruoli
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- terza colonna -->
+
+
+                    <div class="colonna">
+                        <div class="casella-piccola">
+                            <span><i class="fa-solid fa-user"></i></span>
+                            <span>Azienda</span>
+                        </div>
+                        <div class="casella-grossa flex column">
+                            <h3 class="margin-p">Enterprise</h3>
+                            <span id="prezzo"><b>Contattaci</b></span>
+                            <span id="mese" class="margin-g">-</span>
+                            <span class="margin-p flex align-baseline"><i class="fa-solid fa-user"></i>1o o più
+                                utenti</span>
+                            <span class="margin-p flex align-baseline"><i class="fa-solid fa-folder"></i>Soluzioni
+                                personalittabili per
+                                latua azienda</span>
+                            <span class="margin-g flex align-baseline">
+                                <i class="fa-solid fa-share-nodes"></i>Assistenza personalittata per aiutare gli
+                                amministratori in una gestione sularga scala
+                            </span>
+                            <button class="prova margin-m">Prova gratis per 30 giorni</button>
+                            <span class="margin-m">Oppure <a href="">acqista ora</a></span>
+                            <hr class="margin-g">
+                            <span class="margin-m"><b>Punti salienti del piano</b></span>
+                            <ul>
+                                <li class="margin-p flex align-baseline">
+                                    <i class=" fa-solid fa-check"></i>Cartelle offline su
+                                    dispositivi mobili
+                                </li>
+                                <li class="margin-p flex align-baseline">
+                                    <i class=" fa-solid fa-check"></i>Servizio assistenza 24/h
+                                </li>
+                                <li class="margin-p flex align-baseline">
+                                    <i class=" fa-solid fa-check"></i>Possibilità di personalizzazione totale
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
 
 </body>
 
