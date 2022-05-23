@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+
+
+/* navbar */
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+
+}
+
+#dropbox {
+    padding-left: 20px;
+}
+
+#cliente {
+    padding-right: 20px;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    line-height: 80px;
+}
+
+img {
+    height: 25px;
+}
+
+#dropbox img,
+span {
+    margin-right: 40px;
+}
+
+#cliente {
+    justify-content: right;
+}
+
+#cliente span,
+button {
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+#inizia {
+    padding: 10px 20px;
+    background-color: #0061FF;
+    border: 0;
+    color: white;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    height: 700px;
+    background-color: #B4D0E7;
+}
