@@ -308,3 +308,18 @@ ul {
     background-color: white;
     border: 1px solid;
 }
+
+/* terza section */
+
+.c-3 {
+    width: calc(100% / 3 - 30px);
+    margin-bottom: 40px;
+}
+
+.i-3 {
+    height: 215px;
+}
+
+.p-3 {
+    line-height: 20px;
+}
