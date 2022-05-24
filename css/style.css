@@ -28,6 +28,7 @@
     align-items: baseline;
 }
 
+
 .margin-p {
     margin-bottom: 20px;
 }
@@ -38,6 +39,10 @@
 
 .margin-g {
     margin-bottom: 40px;
+}
+
+.margin-150 {
+    margin-bottom: 150px;
 }
 
 
@@ -54,6 +59,7 @@ nav {
     left: 0;
     right: 0;
     background-color: white;
+    box-shadow: 0 1px 3px #dedede;
 
 }
 
@@ -150,6 +156,9 @@ h1 {
 
 /* main */
 
+/* prima section */
+
+/* colonne */
 
 
 section {
@@ -158,7 +167,7 @@ section {
 
 h2 {
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 65px;
 }
 
 .cerchio {
@@ -182,21 +191,22 @@ h2 {
 
 .colonna {
     width: calc(100% / 3 - 30px);
-    height: 960px;
+    height: 1030px;
     border: #D6D6D8 solid 1px;
     line-height: 20px;
+    margin-bottom: 40px;
 }
 
 .casella-piccola {
     width: 100%;
     height: 40px;
-    border-bottom: #D6D6D8 solid 2px;
+    border-bottom: #D6D6D8 solid 1px;
     text-align: center;
     line-height: 40px;
 }
 
 .casella-grossa {
-    padding: 30px
+    padding: 40px 30px;
 }
 
 h3 {
@@ -215,6 +225,23 @@ i {
     margin: 5px;
 }
 
+.fa-share-nodes {
+    margin-bottom: 65px;
+}
+
+a {
+    color: #0000EE;
+}
+
+.prova-colonna {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+    background-color: #0061FF;
+    color: white;
+    border: 0;
+}
+
 
 hr {
     width: 60px;
@@ -226,4 +253,58 @@ ul {
 
 .fa-check {
     color: #0061FF;
+}
+
+/* tabella team */
+
+.team {
+    width: 55%;
+    height: 270px;
+    border: #D6D6D8 solid 1px;
+    line-height: 20px;
+}
+
+.casella-team {
+    padding: 40px 30px 20px;
+    height: 230px;
+}
+
+.button-team {
+    width: 210px;
+    padding: 15px 0;
+    margin-top: -10px;
+    font-size: 16px;
+    background-color: #0061FF;
+    color: white;
+    border: 0;
+    align-self: flex-end;
+}
+
+.p-team {
+    width: 700px;
+
+}
+
+
+/* seconda section */
+
+#partner {
+    height: 500px;
+}
+
+#c-2 {
+    padding: 50px;
+}
+
+
+#p-2 {
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+#b-2 {
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid;
 }
