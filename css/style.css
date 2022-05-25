@@ -390,6 +390,9 @@ ul {
 
 .verde {
     background-color: #A2D39B;
+}
+
+.verde:hover {
     border: #D1E9CD 15px solid;
 }
 
@@ -397,28 +400,56 @@ ul {
     background-color: #FF1C1C;
 }
 
+.rosso-c:hover {
+    border: #fc5959 15px solid;
+}
+
 .rosso-m {
     background-color: #D5001F;
+}
+
+.rosso-m:hover {
+    border: #da455b 15px solid;
 }
 
 .rosso-s {
     background-color: #61082B;
 }
 
+.rosso-s:hover {
+    border: #632840 15px solid;
+}
+
 .blu-c {
     background-color: #B4D0E7;
+}
+
+.blu-c:hover {
+    border: #b9e0fc 15px solid;
 }
 
 .blu-m {
     background-color: #0093CE;
 }
 
+.blu-m:hover {
+    border: #44aad3 15px solid;
+}
+
 .blu-s {
     background-color: #0D2481;
 }
 
+.blu-s:hover {
+    border: #314286 15px solid;
+}
+
 .giallo {
     background-color: #FFD830;
+}
+
+.giallo:hover {
+    border: #fae37f 15px solid;
 }
 
 /* immagini quadrati */
