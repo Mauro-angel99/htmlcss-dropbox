@@ -487,6 +487,30 @@ ul {
 
 footer {
     width: 100%;
-    height: 500px;
     background-color: #000000;
+    color: white;
+}
+
+#c-f {
+    width: 65%;
+    margin-top: 100px;
+}
+
+#c-p-f {
+    width: 65%;
+    height: 100px;
+    color: #999999;
+}
+
+#h-f {
+    margin-bottom: 30px;
+}
+
+#li-f {
+    margin-bottom: 15px;
+}
+
+#hr-f {
+    color: #E6E6E6;
+    width: 120px;
 }
