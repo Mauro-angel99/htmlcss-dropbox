@@ -239,11 +239,11 @@ h3 {
     font-size: 26px;
 }
 
-#prezzo {
+.prezzo {
     margin-bottom: 15px;
 }
 
-#mese {
+.mese {
     color: #8B8B8B;
 }
 
@@ -540,7 +540,7 @@ ul {
 
 /* sesta section */
 
-#hr-6 {
+.hr-6 {
     width: 100%;
     margin: 40px 0;
 }
@@ -550,13 +550,13 @@ ul {
     right: 30px;
 }
 
-#domanda {
+.domanda {
     position: relative;
 }
 
 
 
-#risposta {
+.risposta {
     display: none;
     height: 50px;
     width: 100%;
@@ -564,11 +564,11 @@ ul {
     margin-top: 40px;
 }
 
-#domanda:hover #risposta {
+.domanda:hover .risposta {
     display: block
 }
 
-#domanda:hover .fa-angle-down {
+.domanda:hover .fa-angle-down {
     transform: rotate(180deg);
 }
 
@@ -581,7 +581,7 @@ footer {
     color: white;
 }
 
-#c-f {
+.c-f {
     width: 65%;
     margin-top: 100px;
 }
@@ -592,11 +592,11 @@ footer {
     color: #999999;
 }
 
-#h-f {
+.h-f {
     margin-bottom: 30px;
 }
 
-#li-f {
+.li-f {
     margin-bottom: 15px;
 }
 
