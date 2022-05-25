@@ -515,8 +515,32 @@ ul {
 }
 
 .fa-angle-down {
-    padding-left: 350px;
+    position: absolute;
+    right: 30px;
 }
+
+#domanda {
+    position: relative;
+}
+
+
+
+#risposta {
+    display: none;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    margin-top: 40px;
+}
+
+#domanda:hover #risposta {
+    display: block
+}
+
+#domanda:hover .fa-angle-down {
+    transform: rotate(180deg);
+}
+
 
 /* footer */
 
