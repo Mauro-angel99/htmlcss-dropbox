@@ -90,25 +90,28 @@ nav {
     line-height: 80px;
 }
 
+.c-l-nav {
+    width: 550px;
+}
+
+.c-2-nav {
+    width: 500px;
+}
+
+
 img {
     height: 25px;
 }
 
-#dropbox span,
-#logo {
-    margin-right: 40px;
+header a {
+    color: black;
 }
 
-
-#cliente {
-    justify-content: right;
+header a:hover {
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
 }
 
-#cliente span,
-#inizia {
-    margin-right: 0;
-    margin-left: 40px;
-}
 
 #inizia {
     padding: 10px 20px;
@@ -116,6 +119,12 @@ img {
     border: 0;
     color: white;
 }
+
+#inizia:hover {
+    background-color: #009dff;
+    cursor: pointer;
+}
+
 
 /* jumbotron */
 
@@ -160,6 +169,11 @@ h1 {
     background-color: #0061FF;
     color: white;
     border: 0;
+}
+
+.prova:hover {
+    background-color: #009dff;
+    cursor: pointer;
 }
 
 .fa-arrow-down {
@@ -254,6 +268,11 @@ a {
     border: 0;
 }
 
+.prova-colonna:hover {
+    background-color: #009dff;
+    cursor: pointer;
+}
+
 
 hr {
     width: 60px;
@@ -292,6 +311,11 @@ ul {
     align-self: flex-end;
 }
 
+.button-team:hover {
+    background-color: #009dff;
+    cursor: pointer;
+}
+
 .p-team {
     width: 700px;
 
@@ -319,6 +343,12 @@ ul {
     font-size: 16px;
     background-color: white;
     border: 1px solid;
+}
+
+#b-2:hover {
+    cursor: pointer;
+    color: gray;
+    border-color: gray;
 }
 
 /* terza section */
@@ -469,6 +499,11 @@ ul {
     font-size: 16px;
     background-color: white;
     border: none;
+}
+
+#b-5:hover {
+    cursor: pointer;
+    color: gray;
 }
 
 
