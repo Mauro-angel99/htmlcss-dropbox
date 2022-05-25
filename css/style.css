@@ -28,6 +28,10 @@
     justify-content: space-between;
 }
 
+.align-center {
+    align-items: center;
+}
+
 .align-baseline {
     align-items: baseline;
 }
@@ -43,6 +47,10 @@
 
 .margin-g {
     margin-bottom: 40px;
+}
+
+.margin-100 {
+    margin-bottom: 100px;
 }
 
 .margin-150 {
@@ -334,17 +342,18 @@ ul {
     width: 700px;
 }
 
-/* quinta section */
-
 .q-g {
-    width: calc(100% / 3);
-    height: 634px;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
     background-color: #F5F5F5;
 }
 
 .q-p {
     width: calc(100% / 2);
     height: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* colori */
@@ -380,4 +389,104 @@ ul {
 
 .giallo {
     background-color: #FFD830;
+}
+
+/* immagini quadrati */
+
+#img-1 {
+    height: 50px;
+}
+
+#img-2 {
+    height: 120px;
+}
+
+#img-3 {
+    height: 30px;
+}
+
+#img-4 {
+    height: 75px;
+}
+
+#img-5 {
+    height: 50px;
+}
+
+#img-6 {
+    height: 20px;
+}
+
+#img-7 {
+    height: 80px;
+}
+
+#img-8 {
+    height: 110px;
+}
+
+.q-p img {
+    filter: invert(1);
+}
+
+/* quadrato centrale */
+
+#q-c {
+    padding: 50px;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+#img-c {
+    height: 90px;
+    margin-bottom: 40px;
+}
+
+#hr-c {
+    width: 110px;
+    margin-bottom: 40px;
+}
+
+/* quinta section */
+
+#bg-5 {
+    height: 350px;
+    width: 100%;
+    background-color: #B4D0E7;
+}
+
+#c-5 {
+    width: 55%;
+}
+
+#h-5 {
+    color: #61082B;
+    width: 500px;
+}
+
+#b-5 {
+    padding: 10px 50px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+}
+
+
+/* sesta section */
+
+#hr-6 {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.fa-angle-down {
+    padding-left: 350px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
 }
